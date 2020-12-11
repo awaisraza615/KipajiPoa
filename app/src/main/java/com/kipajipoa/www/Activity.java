@@ -40,10 +40,6 @@ public class Activity extends AppCompatActivity {
         webView.getSettings().setLoadsImagesAutomatically(true);
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
-
-
-
-        back.bringToFront();
         webView.setWebViewClient(new WebViewClient() {
 
 
